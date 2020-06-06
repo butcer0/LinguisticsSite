@@ -1,0 +1,6 @@
+<h3>Word Count</h3>
+
+<form action="{% url 'wordcount:count' %}">
+    <textarea cols="40" rows="5" name="fulltext"></textarea><br/>
+    <input type="submit" value="Count!" />
+</form>
